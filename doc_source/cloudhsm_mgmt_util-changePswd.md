@@ -27,7 +27,7 @@ changePswd <user-type> <user-name> <password>
 These examples show how to use changePassword to create new users in your HSMs\.
 
 **Example : Change your password**  
-Any user on the HSMs can change use changePswd to change their own password\.   
+Any user on the HSMs can use changePswd to change their own password\.   
 The first command uses [info](cloudhsm_mgmt_util-info.md) to get the current user\. The output shows that the current user, `bob`, is a crypto user \(CU\)\.  
 
 ```
